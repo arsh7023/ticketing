@@ -5,3 +5,24 @@ npm publish --access public
 inside common: => tsc --init
 
 npm i typescript del-cli --save-dev
+
+== to publish changes to npm after changes:
+after git push:
+1- npm version patch
+2- npm run build
+3- npm publish
+
+
+bad : just for testing : npm run pub
+"pub" : "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+
+
+
+npm i express express-validator cookie-session jsonwebtoken @types/cookie-session @types/express @types/jsonwebtoken
+
+
+cd auth:
+npm i @alitickets/common
+
+to update: cd auth->
+npm update @alitickets/common
