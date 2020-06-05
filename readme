@@ -1,0 +1,7 @@
+npm login = ashamakhy
+
+npm publish --access public
+
+inside common: => tsc --init
+
+npm i typescript del-cli --save-dev
